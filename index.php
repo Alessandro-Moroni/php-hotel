@@ -63,11 +63,11 @@
           
           <div class="card-body">
   
-            <h5 class="card-title"><?php echo $hotel['name'] ?></h5>
+            <h5 class="card-title">Nome hotel: <?php echo $hotel['name'] ?></h5>
             <p class="card-text"><?php echo $hotel['description'] ?></p>
-            <p class="card-text"><?php echo $hotel['parking'] ?></p>
-            <p class="card-text"><?php echo $hotel['vote'] ?></p>
-            <p class="card-text"><?php echo $hotel['distance_to_center'] ?></p>
+            <p class="card-text">Parcheggio disponibile: <?php echo $hotel['parking'] ? 'si': 'no' ?></p>
+            <p class="card-text">Voto: <?php echo $hotel['vote'] ?></p>
+            <p class="card-text">Distanza dal centro: <?php echo $hotel['distance_to_center'] ?></p>
             
           
           </div>
