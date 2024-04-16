@@ -40,8 +40,9 @@
 
     ];
 
-    var_dump($hotels);
+    // var_dump($hotels);
 
+    
 ?>
 
 <!DOCTYPE html>
@@ -55,11 +56,14 @@
 <body>
   
 
-    <div class="container my-5 row">
-      <div class="col">
+    <div class="container my-5 ">
+
+      <h1>PHP Hotel</h1>
+
+      <div class="row">
 
         <?php foreach($hotels as $key => $hotel): ?>
-        <div class="card" style="width: 18rem;">
+        <div class="card col mx-2 " style="width: 18rem;">
           
           <div class="card-body">
   
