@@ -58,7 +58,7 @@
 
     <div class="container my-5 ">
 
-      <h1>PHP Hotel</h1>
+      <h1 class="mb-3">PHP Hotel</h1>
 
       <div class="row">
 
@@ -71,7 +71,7 @@
             <p class="card-text"><?php echo $hotel['description'] ?></p>
             <p class="card-text">Parcheggio disponibile: <?php echo $hotel['parking'] ? 'si': 'no' ?></p>
             <p class="card-text">Voto: <?php echo $hotel['vote'] ?></p>
-            <p class="card-text">Distanza dal centro: <?php echo $hotel['distance_to_center'] ?></p>
+            <p class="card-text">Distanza dal centro: <?php echo $hotel['distance_to_center'] ?>Km</p>
             
           
           </div>
